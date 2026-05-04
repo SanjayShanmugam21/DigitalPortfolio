@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "react-scripts build"
+    "build": "craco build"
   },
   "browserslist": {
     "production": [
@@ -22,6 +22,7 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^7.1.0",
     "@tailwindcss/postcss": "^4.2.2",
     "autoprefixer": "^10.5.0",
     "postcss": "^8.5.10",
