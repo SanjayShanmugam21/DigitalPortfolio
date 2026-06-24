@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
+import Article from './components/Article';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
@@ -18,6 +19,7 @@ export default function App() {
       case 'skills': return <Skills />;
       case 'projects': return <Projects />;
       case 'experience': return <Experience />;
+      case 'article': return <Article />;
       case 'contact': return <Contact />;
       case 'resume': return <Resume />;
       default: return <Hero setActiveSection={setActiveSection} />;

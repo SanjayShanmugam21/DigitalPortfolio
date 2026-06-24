@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Menu, X, FileText } from 'lucide-react';
 import { CONTACT } from '../data';
 
-const NAV_LINKS = ['About', 'Skills', 'Projects', 'Experience', 'Contact'];
+const NAV_LINKS = ['About', 'Skills', 'Projects', 'Experience', 'Article', 'Contact'];
 
 export default function Navbar({ activeSection, setActiveSection }) {
   const [isOpen, setIsOpen] = useState(false);

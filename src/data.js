@@ -9,6 +9,22 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    title: 'Grocery Store Website',
+    stack: ['HTML5', 'CSS3', 'JavaScript'],
+    desc:
+      'Responsive e-commerce-style grocery website featuring product showcases, promotional banners, customer testimonials, and modern UI/UX design. Optimized for desktop, tablet, and mobile devices with interactive sections and seamless user experience.',
+    liveUrl: 'https://sanjayshanmugam21.github.io/grocerStore/',
+    color: '#22c55e',
+  },
+  {
+    title: 'WebPro Website',
+    stack: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
+    desc:
+      'Developed a responsive web development agency website showcasing services, portfolio projects, technology expertise, and contact information. Implemented modern UI/UX design, smooth navigation, interactive sections, and mobile-first responsive layouts to provide an engaging user experience across all devices.',
+    liveUrl: 'https://sanjayshanmugam21.github.io/webPro/',
+    color: '#f97316',
+  },
+  {
     title: 'Bad Bank Application',
     stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB Atlas'],
     desc:
@@ -73,6 +89,23 @@ export const CERTIFICATIONS = [
   'Full Stack Development Workshop — Novi Tech R&D Pvt Ltd (Feb 2024)',
   'Web Development Using React.js Workshop — Novi Tech R&D Pvt Ltd (Jan 2024)',
   'Typewriting (English) — Junior & Senior Grade, Govt Certified (2023–2024)',
+];
+
+export const ARTICLES = [
+  {
+    title: 'From Idea to Interface: Building My Fresh Grocery Store Website with HTML, CSS & JavaScript',
+    subtitle: 'How I transformed a simple web development practice project into a modern grocery shopping experience.',
+    intro: 'Every web developer starts somewhere. For me, one of the most exciting learning experiences was building a Fresh Grocery Store Website using HTML, CSS, and JavaScript.',
+    image: '/assets/grocery-article.jpg',
+    url: 'https://medium.com/@sanjay9080s4/from-idea-to-interface-building-my-fresh-grocery-store-website-with-html-css-javascript-2eb3009d51d7'
+  },
+  {
+    title: 'From Plain Structure to a Professional Web Experience: Building My WebPro Website',
+    subtitle: 'Every web developer has a project that teaches them lessons beyond code.',
+    intro: 'For me, that project was WebPro — a modern, responsive business website built using HTML5, CSS3, and Bootstrap 5. At first glance, it may look like another website project. But behind every section, layout, and responsive component was a journey of learning how professional websites are actually built.',
+    image: '/assets/webpro-article.jpg',
+    url: 'https://medium.com/p/5035526c7529?postPublishedType=initial'
+  }
 ];
 
 export const CONTACT = {
